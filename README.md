@@ -13,7 +13,6 @@ This is my preferred way of sharing/storing/installing packages. Use pip to inst
 
 ```
 pip install git+https://github.com/gbletsch/optimizedf.git
-
 ```
 
 Or if, for some reason, you don't want to use git:
@@ -27,6 +26,7 @@ pip install https://github.com/gbletsch/optimizedf/zipball/master
 
 
 ```python
+>> from optimizedf.optimize_df import optimize_df
 >> columns_optimized = optimize_df(df)
 
 Optimizing df...
