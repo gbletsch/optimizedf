@@ -36,25 +36,25 @@ Optimized df size: Total memory usage: 100.69 MB
         
 >> print(df.dtypes)
 
-N_AIH                     object
-NASC              datetime64[ns]
-DT_INTER          datetime64[ns]
-DT_SAIDA          datetime64[ns]
-US_TOT                   float32
-DIAS_PERM                 uint16
-ANO_CMPT                category
-DIAG_PRINC              category
-MORTE                      uint8
-IDADE                      uint8
-CNES                    category
-UF                      category
-SEXO                    category
-ETNIA                   category
-COMPLEX                 category
-CAR_INT                 category
-MUNIC_RES               category
-MUNIC_MOV               category
-DIAG_PRINC_CAT          category
+N_AIH              object
+NASC               datetime64[ns]
+DT_INTER           datetime64[ns]
+DT_SAIDA           datetime64[ns]
+US_TOT            float64
+DIAS_PERM           int64
+ANO_CMPT           object
+DIAG_PRINC         object
+MORTE               int64
+IDADE               int64
+CNES               object
+UF                 object
+SEXO               object
+ETNIA              object
+COMPLEX            object
+CAR_INT            object
+MUNIC_RES          object
+MUNIC_MOV          object
+DIAG_PRINC_CAT     object
 dtype: object
     
 >> df = df.astype(columns_optimized)
